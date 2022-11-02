@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <script src="jquery-3.6.0.min.js"></script>
+    </head>
+    <style>
+        body{
+            background-image: linear-gradient(rgba(34, 34, 34, 0.75),rgba(0,0,0,0.75)),url("images/bg.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <script>
+	  $(document).ready(function(){
+	    	$(".payment").hide();
+ 		$("#trigger").click(function(){
+    			$(".payment").show(); }); });
+    
+        function myfunc()
+        {
+     
+     var a,b,d,e,f,g,h,a1,b1;
+    
+    a=myform.Fname.value;
+    b=myform.Sname.value;
+      d=myform.movie.value;
+      e=myform.date.value;
+      f=myform.time.value;
+      g=myform.tickets.value;
+      a1=myform.email.value;
+      b1=myform.phone.value;
+
+    
+    
+      
+
+
+        document.write("<center><body style=background-image:url(images/bg.jpg);background-repeat:no-repeat;background-size:cover;background-position:center;background-attachment:fixed;height:100%><h1> <center><mark>Details</mark></center></h1>")
+document.write("<table border=5 style=font-size:15pt;background-color:white><tr><td>FIRST NAME:</td><td>"+a+"</td></tr>");
+document.write("<tr><td>LAST NAME:</td><td>"+b+"</td></tr>");
+document.write("<tr><td>MOVIE:</td><td>"+d+"</td></tr>");
+document.write("<tr><td>SHOW DATE:</td><td>"+e+"</td></tr>");
+document.write("<tr><td>SHOW TIME:</td><td>"+f+"</td></tr>");
+document.write("<tr><td>NO. OF TICKETS:</td><td>"+g+"</td></tr>");
+document.write("<tr><td>EMAIL:</td><td>"+a1+"</td></tr>");
+document.write("<tr><td>PHONE NUMBER:</td><td>"+b1+"</td></tr>");
+document.write("<tr><td>STATUS:</td><td>PAID</td></tr>");
+	alert("TICKET IS CONFIRMED");
+  var person = prompt("Please enter the OTP you jus recieved", " ");
+    }
+    </script>
+
+<body>
+
+    <div class="start">
+        <div>
+            <center>
+            <h2>BOOKING TICKETS</h2>
+        </center> 
+        </div>
+    </div>
+
+    <dialog open>
+<form name= myform method="get" autocomplete="off">
+    <label for="Fname">FIRST NAME:</label>
+    <input type="text" id="Fname" name="Fname"><br>
+    <label for="Sname">LAST NAME:</label>
+    <input type="text" id="Sname" name="Sname"><br>
+    <label for="theaters">MOVIE:</label>
+    <input list="movie" id="Movie" name="movie"><br>
+    <datalist id="movie">
+    <option value ="raja rani"></option>
+    <option value ="lKG"></option>
+    <option value ="SOORARAI POTTRU"></option>
+    <option value ="TEDDY"></option>
+    <option value ="BHOOMI"></option>
+    <option value ="eli"></option>
+    <option value ="SULTHAN"></option>  
+    <option value ="IT"></option>
+    <option value ="Anabella"></option>
+    <option value ="Ganjinikanth"></option>              
+    </datalist>
+    <label for="date">SHOW DATE:</label>
+    <input type="date" id="date" name="date"><br>
+    <label for="time">SHOW TIMING:</label>
+    <input type="time" id="time" name="time"><br>
+    <label for="tickets">NO.OF TICKETS:</label>
+    <input type="number" name="tickets" value="tickets">
+    <br><br><br><br>
+    <label for="email">EMAIL ID:</label>
+    <input type="text" id="email" name="email"><br>
+    <label>MOBILE NO.:</label>
+   <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br>
+   <input type="button" value="BOOK" id="trigger">
+    <input type="reset" value="CLEAR"><br>
+    <label for="method" class="payment" >Payment Mode:</label>
+    <input list="method" class="payment" name="method"><br>
+    <datalist id="method">
+    <option value ="Credit card"></option>
+    <option value ="Debit card"></option></datalist>
+    <label for="payment" class="payment" >CVV no:</label>
+    <input type="text" class="payment" name="payment"><br>
+    <label for="date" class="payment" >Date of payment :</label>
+    <input type="date" class="payment" name="payment"><br>
+    <input type="button" value="PAY" class="payment" onClick=myfunc()>
+</dialog>
+    </form>

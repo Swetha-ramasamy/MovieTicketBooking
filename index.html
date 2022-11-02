@@ -1,0 +1,313 @@
+<html>
+<link rel="stylesheet" type="text/css" href="home.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<script src="jquery-3.6.0.min.js"></script>
+<div id="mySidenav">
+    <a id="showabout" href="#">About</a>
+    <a id="showmovies" href="#">Movies</a>
+    <a id="showtheatre" href="#">Theatres</a>
+    <a id="showcontact" href="#">Contact</a>
+    <a id="showbook" href="login.html">Book</a>
+</div>
+<div id="home">
+    <div class="parallax">
+        <div class="topheader">
+            <h1>Book your show</h1>
+        </div>
+    </div>
+    <div style="height:700px;background-color:lightskyblue;font-size:36px">
+        <div class="container features">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12"><br><br>
+                    <img src="images/fam1.jpg" width="300" height="300">
+                    <p1>
+                        Enjoy watching movies with your family
+                    </p1>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12"><br><br>
+                    <img src="images/hor1.jpg" width="300" height="300">
+                    <p1>
+                        Horror movies !! most of them love it
+                    </p1>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12"><br><br>
+                    <img src="images/fam3.jpeg" width="300" height="300">
+                    <p1>
+                        Motivational films to motivate you
+                    </p1>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="about">
+    <div class="parallaxabt">
+        <div class="topheader">
+            <h1>About Us</h1>
+        </div>
+    </div>
+<div style="height:700px;background-color:lightskyblue;font-size:36px">
+        <div class="container features">
+            <div class="row">
+                <div style="background-color:lightseagreen" class="col-lg-4 "><br><br>
+                    <p>
+                        Our mission is to help people visualize, create & maintain beautiful homes.<br>
+                        We bring to you inspiring visuals of cool homes, specific spaces, architectural marvels and new
+                        design
+                        trends.<br>
+                        Our designs are driven by vibrant color & pattern complimented with textural & sculptural
+                        details.
+                        With
+                        our eclectic style, anything global and cultural continues to inspire us.
+                        With over 20 years of experience, we’ve got the expertise to match our energetic approach. We
+                        travel,
+                        With over 20 years of experience, we’ve got the expertise to match our energetic approach. We
+                        travel,
+                        cherish family and understand modern lifestyles. Our team is full of laughter, while being
+                        serious
+                        about
+                        your project and its outcome.
+                    </p>
+                </div>
+                <div class="col-md-8" style="padding: 30px;">
+                    <p>
+                        Our designs are driven by vibrant color & pattern complimented with textural & sculptural
+                        details.
+                        With
+                        our eclectic style, anything global and cultural continues to inspire us.
+                        <br><br>
+                        With over 20 years of experience, we’ve got the expertise to match our energetic approach. We
+                        travel,
+                        cherish family and understand modern lifestyles. Our team is full of laughter, while being
+                        serious
+                        about
+                        your project and its outcome.
+                    </p>
+                    <table border=4>
+                        <tr>
+                            <th>
+                                FESTIVAL
+                            </th>
+                            <th>
+                                OFFERS
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Diwali
+                            </td>
+                            <td>
+                                 upto 60% off
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Christmas
+                            </td>
+                            <td>
+                                 upto 20% off
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Ramzan
+                            </td>
+                            <td>
+                                 upto 20% off
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Big billion days
+                            </td>
+                            <td>
+                                 20% off
+                            </td>
+
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="parallaxcontact">
+        <div class="topheader">
+            <h1>Contact us</h1>
+        </div>
+    </div>
+    <div style="height:700px;background-color:lightskyblue;font-size:36px">
+        <div class="container features">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Get in Touch! LOGIN</h2>
+                    <form method="post" onsubmit="return validpassword()">
+                        <label for="name">Name:</label>
+                        <input id="name" type="text" class="form-control" placeholder="Name" name="">
+                        <label for="email">Email Address:</label>
+                        <input id="mail" type="email" class="form-control" placeholder="Email Address" name="email">
+                        <label for="address">Address:</label>
+                        <textarea class="form-control" rows="4" placeholder="Address"></textarea>
+                        <label for="password">Password:</label>
+                        <input id="password" type="password" class="form-control" placeholder="password"
+                            name="password"><br>
+                        <input type="submit" class="descriptionbutton" value="send" name=""><br>
+                        <span id="message" class="msg"> </span>
+                    </form>
+                </div>
+                <div class=" col-sm-8">
+                    <h2>Location</h2>
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://123movies-to.org"></a><br>
+                            <a href="https://www.embedgooglemap.net">free map for website</a>
+                        </div>
+                    </div>
+                    <p> Phone: 9655977164
+                        Email:bookshow@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="movie">
+    <div class="parallaxmovie">
+        <div class="topheader">
+            <h1>Choose the Movie you want</h1>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Movies</button>
+            <div class="dropdown-content">
+                <a id="showhorror" href="#">HORROR MOVIES</a>
+                <a id="showfamily" href="#">FAMILY MOVIES</a>
+                <a id="showcomedy" href="#">COMEDY MOVIES</a>
+            </div>
+        </div>
+    </div>
+    <div id="content" style="height:700px;background-color:lightskyblue;font-size:36px">
+        <div id="horror">
+            <div class="container features">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/hor3.jpg" width="200" height="200">
+                        <p>Seats are available in all classes movie name: horror TIMING:morning</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/hor4.jpg" width="200" height="200">
+                        <p>Seats are available in all classes movie name: conjuring  TIMING:evening</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/hor5.jpg" width="200" height="200">
+                        <p>Seats are available in C class only movie name: Physco TIMING:night</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/hor6.png" width="200" height="200">
+                        <p>Seats are available in all classes movie name: Terror  TIMING:morning</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/hor1.jpg" width="200" height="200">
+                        <p>Seats are available in all classes movie name: IT  TIMING:morning</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/hor2.jpg" width="200" height="200">
+                        <p>Seats are available in all classes movie name: Anabella  TIMING:night</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="family">
+            <div class="container features">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/fam1.jpg" width="200" height="200">
+                        <p>Seats are available in all classes movie name: Mersal  TIMING:morning</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/fam2.jpg" width="200" height="200">
+                        <p>Seats are available in all classes movie name: Sultan  TIMING:morning</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/fam3.jpeg" width="200" height="200">
+                        <p>Seats are available in C class only movie name:Soorarai Potru  TIMING:morning</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/fam4.jpeg" width="200" height="200">
+                        <p>Seats are available in all classes movie name: Teddy  TIMING:morning</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/fam5.jpeg" width="200" height="200">
+                        <p>Seats are available in all classes movie name: Maari  TIMING:morning</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/fam6.jpeg" width="200" height="200">
+                        <p>Seats are available in all classes movie name: Raja Rani  TIMING:evening</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div id="comedy">
+            <div class="container features">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                            <img src="images/com1.jpg" width="200" height="200">
+                            <p>Seats are available in all classes movie name: Remo  TIMING:morning</p>
+                        </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/com2.jpeg" width="200" height="200">
+                        <p>Seats are available in all classes movie name: Gajinikanth  TIMING:morning</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/com3.jpg" width="200" height="200">
+                        <p>Seats are available in C class only movie name:LKG  TIMING:morning</p>
+                        </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/com4.jpg" width="200" height="200">
+                        <p>Seats are available in all classes movie name: Eli TIMING:morning</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/com5.jpeg" width="200" height="200">
+                        <p>Seats are available in all classes movie name: Thennali Raman TIMING:morning</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" style="padding: 30px;">
+                        <img src="images/com6.jpg" width="200" height="200">
+                        <p>Seats are available in all classes movie name:Gurka  TIMING:morning</p>
+                    </div>
+                    </div>
+                </div>
+        </div>
+</div>
+</div>
+<div id="theatre">
+    <div class="parallaxtheatre">
+        <div class="topheader">
+            <h1>Theatre</h1>
+        </div>
+    </div>
+    <div style="height:500px;background-color:lightskyblue;font-size:36px">
+        <img  class="logo"src="images/oops.png" width="300" height="200">
+            <p class="logo">Sorry!! THE THEATRES ARE ON A<br> BREAK RECENTLY DUE TO COVID</p>
+    </div>
+
+</div>
+<footer class="footer">
+    <p> We value your time and entertain you made in the intention of making you happy
+        Follow us for daily offers <br>
+        Offers will be informed through messages if you are subscribed to our channel<br>
+        Free tickets  will be given during festival seasons <br>
+        The seats are sanitised properly considering your safety<br>
+        <img class="img" src="images/follow1.gif">
+    </p>
+</footer>
+</body>
+<script src="home.js"></script>
+
+</html>
