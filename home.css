@@ -1,0 +1,245 @@
+.parallax {
+   
+    background-image: url("images/home1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxabt {
+   
+    background-image: url("images/aboutus.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxcontact {
+   
+    background-image: url("images/contactus.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxtheatre {
+   
+    background-image: url("images/theatre.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxmovie {
+   
+    background-image: url("images/movies.png");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallaxbook {
+   
+    background-image: url("images/ticket.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .topheader {
+    display: block;
+    width: auto;
+    height: 10%;
+    padding: 1px;
+    text-align: center;
+    background-color: paleturquoise;
+    overflow: hidden;
+  }
+  .footer{
+    display: block;
+    width: auto;
+    height: 35%;
+    padding: 1px;
+    text-align: center;
+    background-color: black;
+    overflow: hidden;
+  }
+  h1
+      {
+          color:black;text-shadow:2px 2px 5px lightskyblue;
+          font-size:30px;
+          padding:8px;
+      }
+  
+  h3{
+        color: white;
+        font-style: bold;
+        font-size: 40px;
+  }
+  h2,h4 {
+    color: rgb(211, 27, 27);
+    font-style: bold;
+    font-size: 40px;
+    padding: 16px;
+  }
+  .img{
+    image-orientation: from-image;
+  }
+  .msg{
+    margin-left: 0%;
+    font-size: medium;
+    color:red;
+  }
+  p{
+    color:white;
+    font-style: bold;
+    font-size: 20px;
+  }
+  p1{
+    color:white;
+    font-style: bold;
+    font-size: 30px;
+  }
+  .border{
+    border:groove;
+    background-color:red;
+    padding:10px;
+  }
+  #mySidenav a {
+    position: absolute;
+    left: -108px;
+    transition: 0.3s;
+    padding: 10px;
+    width: 130px;
+    text-decoration: none;
+    font-size: 20px;
+    color: darkcyan;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: -1;
+  }
+  
+  #showabout {
+    top: 90px;
+    background-color:rgb(136, 233, 233);
+  }
+  
+  #showmovies {
+    top: 145px;
+    background-color:rgb(136, 233, 233);
+  }
+  
+  #showtheatre {
+    top: 200px;
+    background-color:rgb(136, 233, 233);
+  }
+  
+  #showcontact {
+    top: 255px;
+    background-color:rgb(136, 233, 233);
+  }
+  #showbook {
+    top: 310px;
+    background-color:rgb(136, 233, 233);
+  }
+
+  table {
+    width: 40em;
+    height: 20em;
+  }
+
+  .table1 {
+    width: 40em;
+    height: 20em;
+    margin-left: 360px;
+  }
+  .logo{
+    margin-left: 600px;
+    caption-side: bottom;
+  }
+  
+  th{
+    color:white;
+    background-color:lightseagreen;
+    padding:10px;
+    text-align: center;
+  
+  }
+  
+  td {
+    text-align: center;
+    color:darkcyan;
+  }
+  .descriptionbutton {
+    font-size: medium;
+    border:1px darkcyan;
+    background:darkcyan;
+    border-radius: 0;
+    color:#fff; 
+    margin-left:140px;
+  }
+  .descriptionbutton:hover {
+    border:1px solid darkcyan;
+    background :lightsteelblue;
+    color:#000;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+  }
+  .form{
+    font-size: medium;
+    display: block;
+    width: 100%;
+    margin-left: 500px;
+    padding-bottom: 10px;
+  }
+  label{
+    font-size: 15px;
+  }
+    .mapouter{position:relative;text-align:right;height:500px;width:600px;}
+    .gmap_canvas {overflow:hidden;background:none;height:500px;width:800px;}
+    .dropbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      margin-left: 650;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {background-color: #f1f1f1}
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
